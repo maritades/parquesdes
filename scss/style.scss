@@ -1,0 +1,25 @@
+@import "index";
+@import "armatuviaje";
+@import "contacto";
+@import "curiosidades";
+@import "losparques";
+@import "nosotros";
+@import "querries";
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body    {
+    color: rgb(36, 6, 31);
+    font-family: sans-serif;
+    background-color: #fff0f8;
+}
+header  {
+    color: steelblue;
+    margin: 5px;
+    padding: 5px;
+    
+}

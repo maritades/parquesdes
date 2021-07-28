@@ -1,0 +1,62 @@
+/* NOSOTROS */
+
+.agentes  {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedorNosotros {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+        "hijoImagen hijoTabla"
+        "hijoImagen hijoInfo";
+}
+.hijoImagen {
+    grid-area: hijoImagen;
+}
+.hijoImagen img {
+    width: auto;
+}
+.hijoTabla  {
+    grid-area: hijoTabla;
+    margin-top: 30px;
+    padding: 5px;
+}
+.hijoInfo   {
+    grid-area: hijoInfo;
+    padding: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+tr  {
+    color: darkcyan;
+}
+.hijoImagen:hover{
+    transform: rotateY(30deg);
+}
+table   {
+    text-align: center;
+    margin-left: 10px;
+}
+.listaViñetas   {
+    font-size: small;
+    list-style-type: none;
+    
+}
+.tablaNosotros{
+    border: #24061f solid 1px;
+}
+.tablaNosotros tr{
+    border: #24061f solid 1px;
+}
+.tablaNosotros tr th{
+    border: #24061f solid 1px;
+    padding: 5px;
+}
+.tablaNosotros tr td{
+    border: #24061f solid 1px;
+    padding: 5px;
+}
