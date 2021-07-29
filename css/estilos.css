@@ -199,6 +199,69 @@ h3 {
   width: 50%;
   margin: 0 auto; }
 
+.atraccionesTitulo {
+  font-size: 28px; }
+
+.bannerMagic {
+  background-image: url(../Multimedia/banner-magic.jpg);
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .bannerMagic h3 {
+    padding-top: 70px;
+    color: #fff;
+    font-size: 32px; }
+
+.bannerHS {
+  background-image: url(../Multimedia/banner-hs.jpg);
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .bannerHS h3 {
+    padding-top: 70px;
+    color: #fff;
+    font-size: 32px; }
+
+.bannerAnimal {
+  background-image: url(../Multimedia/banner-animal.jpg);
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .bannerAnimal h3 {
+    padding-top: 70px;
+    color: #fff;
+    font-size: 32px; }
+
+.bannerEpcot {
+  background-image: url(../Multimedia/banner-epcot.jpg);
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+  .bannerEpcot h3 {
+    padding-top: 70px;
+    color: #fff;
+    font-size: 32px; }
+
+.parrafoParques {
+  margin: 10px;
+  padding: 30px; }
+
 /* NOSOTROS */
 .agentes {
   text-align: center;
