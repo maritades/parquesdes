@@ -22,9 +22,6 @@ main h3{
 .imagenHorizontal{
     width: 100%;
 }
-.imagenHorizontal:hover{
-    filter: sepia(60%);
-}
 main p   {
     color: indianred;
     font-family: 'Open Sans', sans-serif;
@@ -38,4 +35,7 @@ section p   {
     margin: 2px;
     padding: 2px;
     
+}
+.animacionCard:hover{
+    filter: opacity(.8); 
 }
