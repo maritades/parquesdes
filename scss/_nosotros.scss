@@ -34,12 +34,12 @@
 tr  {
     color: darkcyan;
 }
-.hijoImagen:hover{
-    transform: rotateY(30deg);
-}
 table   {
     text-align: center;
     margin-left: 10px;
+}
+.hijoImagen img{
+    border-radius: 10px;
 }
 .listaViñetas   {
     font-size: small;
@@ -48,15 +48,27 @@ table   {
 }
 .tablaNosotros{
     border: #24061f solid 1px;
+    
 }
 .tablaNosotros tr{
     border: #24061f solid 1px;
+    font-family: 'Raleway', sans-serif;
 }
 .tablaNosotros tr th{
     border: #24061f solid 1px;
     padding: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 .tablaNosotros tr td{
     border: #24061f solid 1px;
     padding: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+.tablaNosotros tr td ol li{
+    font-family: 'Raleway', sans-serif;
+    color: darkcyan;
+    font-size:15px;
+}
+.hijoInfo h3{
+    color: #24061f;
 }
