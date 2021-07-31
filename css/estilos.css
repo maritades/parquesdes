@@ -124,10 +124,9 @@ form {
   background-image: url(../Multimedia/disney-globos.jpg);
   margin: 3px;
   padding: 3px; }
-
-form div {
-  margin: 5px;
-  padding: 2px; }
+  form div {
+    margin: 5px;
+    padding: 2px; }
 
 /* CURIOSIDADES */
 .curiosidadesDisney {
