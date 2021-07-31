@@ -20,16 +20,12 @@
         margin: 5px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 90%;
+        grid-template-rows: 1fr;
         grid-template-areas: 
             "hijoImagen"
             "hijoTabla"
             "hijoInfo";
     } 
-    .hijoImagen img{
-        width: 100%;
-    }
-
     .redesSociales a    {
         width: 10px;
     }

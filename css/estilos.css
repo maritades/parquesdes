@@ -231,8 +231,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 2fr;
-  grid-template-areas: "hijoImagen hijoTabla"
- "hijoImagen hijoInfo"; }
+  grid-template-areas: "hijoImagen hijoTabla" "hijoImagen hijoInfo"; }
 
 .hijoImagen {
   grid-area: hijoImagen; }
@@ -303,16 +302,12 @@ table {
   .costadoArmaTuViaje {
     width: 100%; }
   .contenedorNosotros {
-    width: 90%;
     padding: 5px;
     margin: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-    "hijoImagen"
-    "hijoTabla"
-    "hijoInfo"; }
+    grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
   .redesSociales a {
     width: 10px; }
   .redesSociales img {
