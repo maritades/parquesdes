@@ -33,9 +33,11 @@ ol  {
     padding: 0.8rem;
     width: 70%;
 }
-.imagenListado img {
-    vertical-align: top;
+.imagenListado  {
+    img     {
+        vertical-align: top;
     width: 100%;
+    }
 }
 .listado    {
     margin: 20px;
@@ -49,16 +51,20 @@ ol  {
     flex-direction: column;
     flex-wrap: wrap;
 }
-.imagenCostado img {
-    vertical-align: top;
-    width: 100%;
-    padding: 20px;
+.imagenCostado  {
+    img     {
+        vertical-align: top;
+        width: 100%;
+        padding: 20px; 
+    }
 }
-.contenidoArmaTuViaje   p{
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    padding: 20px;
+.contenidoArmaTuViaje   {
+    p   {
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        padding: 20px; 
+    }
 }
 /* ARMA TU VIAJE TEMPORADAS */
 
