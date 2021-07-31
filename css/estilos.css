@@ -215,10 +215,9 @@ h3 {
 .cardAtracciones {
   display: inline-block;
   padding: 20px; }
-
-.cardAtracciones div {
-  display: inline-block;
-  margin: 14px; }
+  .cardAtracciones div {
+    display: inline-block;
+    margin: 14px; }
 
 /* NOSOTROS */
 .agentes {

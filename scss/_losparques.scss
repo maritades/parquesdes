@@ -5,14 +5,14 @@
     width: 50%;
     margin: 0 auto;
 }
-.parquesTitulo{
+.parquesTitulo  {
     font-size: 24px;
     color: #24061f;
 }
-.parrafoParques{
+.parrafoParques {
     margin: 10px;
 }
-.bannerMagic{
+.bannerMagic    {
     background-image: url(../Multimedia/banner-magic.jpg);
     float: left;
     width: 100%;
@@ -30,7 +30,7 @@
     }
 
 }
-.bannerAtracciones{
+.bannerAtracciones  {
     background-image: url(../Multimedia/banner-atracciones.jpg);
     float: left;
     width: 100%;
@@ -41,7 +41,7 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    h3 {
+    h3  {
         padding-top: 65px;
         color: #fff;
         font-size: 32px;
@@ -49,12 +49,12 @@
 
 }
 
-.cardAtracciones{
+.cardAtracciones    {
     display: inline-block;
     padding: 20px;   
-    
-}
-.cardAtracciones div{
-    display: inline-block;
+    div     {
+        display: inline-block;
     margin: 14px;
+    }
+    
 }
