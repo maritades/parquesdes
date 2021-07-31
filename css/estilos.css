@@ -133,21 +133,19 @@ form div {
 .curiosidadesDisney {
   text-align: center;
   padding: 10px; }
-
-#curiosidadesDisney h3 {
-  color: #24061f;
-  font-size: 30px;
-  font-style: 'Raleway', sans-serif; }
+  .curiosidadesDisney h3 {
+    color: #24061f;
+    font-size: 30px;
+    font-style: 'Raleway', sans-serif; }
 
 .containerCuriosidadesImg {
   width: 100%;
   display: inline-block;
   padding: 20px; }
-
-.containerCuriosidadesImg div {
-  display: inline-block;
-  width: 300px;
-  margin: 5px; }
+  .containerCuriosidadesImg div {
+    display: inline-block;
+    width: 300px;
+    margin: 5px; }
 
 h2 {
   color: rebeccapurple;

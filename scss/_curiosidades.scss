@@ -3,25 +3,23 @@
 .curiosidadesDisney {
     text-align: center;
     padding: 10px;
-
-}
-#curiosidadesDisney h3  {
-    color: #24061f;
+    h3  {
+        color: #24061f;
     font-size: 30px;
     font-style: 'Raleway', sans-serif;
-    
+    }
+
 }
 
-.containerCuriosidadesImg{
+.containerCuriosidadesImg   {
     width: 100%;
     display: inline-block;
     padding: 20px;
-}
-.containerCuriosidadesImg div{
-    display: inline-block;
-    width: 300px;
-    margin: 5px;
-
+    div     {
+        display: inline-block;
+        width: 300px;
+        margin: 5px;
+    }
 }
 h2  {
     color: rebeccapurple;
@@ -35,10 +33,10 @@ h3  {
     margin: 3px;
     padding: 3px;
 }
-.animacionCard{
+.animacionCard  {
     transition: all 0.2s ease-in-out;
 }
-.animacionCard:hover{
+.animacionCard:hover    {
     filter: opacity(.8); 
     box-shadow: 0 5px 15px #f58cab;
 }
