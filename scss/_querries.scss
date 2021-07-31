@@ -9,7 +9,6 @@
     .cardAtracciones div{
         margin: 20px;
     }
-    
     .mainArmaTuViaje    {
         width: 100%;
     }
@@ -17,12 +16,11 @@
         width: 100%;
     }
     .contenedorNosotros {
-        width: 90%;
         padding: 5px;
         margin: 5px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 90%;
         grid-template-areas: 
             "hijoImagen"
             "hijoTabla"
