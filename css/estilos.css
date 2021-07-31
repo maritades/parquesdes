@@ -232,9 +232,9 @@ h3 {
 
 .hijoImagen {
   grid-area: hijoImagen; }
-
-.hijoImagen img {
-  width: auto; }
+  .hijoImagen img {
+    width: auto;
+    border-radius: 10px; }
 
 .hijoTabla {
   grid-area: hijoTabla;
@@ -246,6 +246,8 @@ h3 {
   padding: 10px;
   text-align: center;
   padding-top: 40px; }
+  .hijoInfo h3 {
+    color: #24061f; }
 
 tr {
   color: darkcyan; }
@@ -254,37 +256,27 @@ table {
   text-align: center;
   margin-left: 10px; }
 
-.hijoImagen img {
-  border-radius: 10px; }
-
 .listaViñetas {
   font-size: small;
   list-style-type: none; }
 
 .tablaNosotros {
   border: #24061f solid 1px; }
-
-.tablaNosotros tr {
-  border: #24061f solid 1px;
-  font-family: 'Raleway', sans-serif; }
-
-.tablaNosotros tr th {
-  border: #24061f solid 1px;
-  padding: 5px;
-  font-family: 'Raleway', sans-serif; }
-
-.tablaNosotros tr td {
-  border: #24061f solid 1px;
-  padding: 5px;
-  font-family: 'Raleway', sans-serif; }
-
-.tablaNosotros tr td ol li {
-  font-family: 'Raleway', sans-serif;
-  color: darkcyan;
-  font-size: 15px; }
-
-.hijoInfo h3 {
-  color: #24061f; }
+  .tablaNosotros tr {
+    border: #24061f solid 1px;
+    font-family: 'Raleway', sans-serif; }
+    .tablaNosotros tr th {
+      border: #24061f solid 1px;
+      padding: 5px;
+      font-family: 'Raleway', sans-serif; }
+    .tablaNosotros tr td {
+      border: #24061f solid 1px;
+      padding: 5px;
+      font-family: 'Raleway', sans-serif; }
+      .tablaNosotros tr td ol li {
+        font-family: 'Raleway', sans-serif;
+        color: darkcyan;
+        font-size: 15px; }
 
 /* QUERRIES */
 @media only screen and (max-width: 576px) {
