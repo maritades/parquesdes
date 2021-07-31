@@ -7,7 +7,7 @@
 @import "querries";
 
 
-*{
+*   {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -36,18 +36,23 @@ footer  {
     justify-content: space-between;
     border: solid 1px rgb(99, 51, 91);
 }
-.redesSociales a    {
-    color: rgb(99, 51, 91);
-    margin-left: 20px;
-    width: 30px;
+
+.redesSociales  {
+    a   {
+        color: rgb(99, 51, 91);
+        margin-left: 20px;
+        width: 30px;
+    }
+    img     {
+        width: 40px;
+        opacity: .7;
+    }
 }
-.redesSociales img  {
-    width: 40px;
-    opacity: .7;
-}
-.infoCreador h4    {
-    font-size: 15px;
-    color: #24061f;
-    padding-top: 15px;
-    margin-left: 10px;
+.infoCreador    {
+    h4  {
+        font-size: 15px;
+        color: #24061f;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
 }

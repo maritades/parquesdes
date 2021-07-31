@@ -1,39 +1,43 @@
 /* HOME */
 
 
-img {
+img    {
     margin: 2px;
     padding: 1px;
 }
-h1  {
+h1     {
     font-weight: bold;
     text-align: center;
     margin: 5px;
     padding: 5px;
 }
-h3{
+h3     {
     font-size: 18px;
     text-align: center;
 }
-main h3{
-    color: rgb(36, 6, 31);
+main   {
+    h3  {
+        color: rgb(36, 6, 31);   
+    }
+    p   {
+        color: indianred;
+        font-family: 'Open Sans', sans-serif;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+    }
 
 }
-.imagenHorizontal{
+.imagenHorizontal   {
     width: 100%;
 }
-main p   {
-    color: indianred;
-    font-family: 'Open Sans', sans-serif;
-    margin: 2px;
-    padding: 2px;
-    text-align: center;
+section     {
+    p   {
+        color: indianred;
+        font-family: 'Open Sans', sans-serif;
+        margin: 2px;
+        padding: 2px;  
+    }
 }
-section p   {
-    color: indianred;
-    font-family: 'Open Sans', sans-serif;
-    margin: 2px;
-    padding: 2px;
-    
-}
+
 
