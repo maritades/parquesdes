@@ -277,32 +277,6 @@ table {
         color: darkcyan;
         font-size: 15px; }
 
-/* QUERRIES */
-@media only screen and (max-width: 576px) {
-  .carrousel {
-    width: 100%; }
-  #curiosidadesDisney h3 {
-    font-size: 20px; }
-  .cardAtracciones div {
-    margin: 20px; }
-  .mainArmaTuViaje {
-    width: 100%; }
-  .costadoArmaTuViaje {
-    width: 100%; }
-  .contenedorNosotros {
-    padding: 5px;
-    margin: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
-  .redesSociales a {
-    width: 10px; }
-  .redesSociales img {
-    width: 20px; }
-  .infoCreador h4 {
-    font-size: 10px; } }
-
 * {
   margin: 0;
   padding: 0;
@@ -345,3 +319,28 @@ footer {
   color: #24061f;
   padding-top: 15px;
   margin-left: 10px; }
+
+/* QUERRIES */
+@media only screen and (max-width: 576px) {
+  .carrousel {
+    width: 100%; }
+  #curiosidadesDisney h3 {
+    font-size: 20px; }
+  .mainArmaTuViaje {
+    width: 100%; }
+  .costadoArmaTuViaje {
+    width: 100%; }
+  .contenedorNosotros {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
+  .redesSociales a {
+    width: 15px; }
+  .redesSociales img {
+    width: 25px; }
+  .infoCreador h4 {
+    padding-top: 7px;
+    font-size: 11px; } }
