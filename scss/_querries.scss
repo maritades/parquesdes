@@ -23,6 +23,49 @@
             "hijoTabla"
             "hijoInfo";
     }
+    .hijoImagen {
+        width: 100px;
+        img     {
+            padding: 10px;
+            width: 330px;
+        }
+    }
+    .agentes    {
+        width: 270px;
+        font-size: 12px;
+        p   {
+            padding-left: 70px;
+        }
+    }
+    .tablaNosotros  {
+        width: 280px;
+    }
+    tr  {
+        th  {
+            font-size: 12px;
+        }
+        td  {
+            font-size:12px;
+            ol  {
+                li  {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    
+    .hijoInfo {
+        width: 100%;
+        h3  {
+            width: 330px;
+            font-size: 20px;
+        }
+        p   {
+            width: 300px;
+            font-size: 12px;
+        }
+    }
+    
     .redesSociales a    {
         width: 15px;
     }

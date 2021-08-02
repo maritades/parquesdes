@@ -337,6 +337,32 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
+  .hijoImagen {
+    width: 100px; }
+    .hijoImagen img {
+      padding: 10px;
+      width: 330px; }
+  .agentes {
+    width: 270px;
+    font-size: 12px; }
+    .agentes p {
+      padding-left: 70px; }
+  .tablaNosotros {
+    width: 280px; }
+  tr th {
+    font-size: 12px; }
+  tr td {
+    font-size: 12px; }
+    tr td ol li {
+      font-size: 10px; }
+  .hijoInfo {
+    width: 100%; }
+    .hijoInfo h3 {
+      width: 330px;
+      font-size: 20px; }
+    .hijoInfo p {
+      width: 300px;
+      font-size: 12px; }
   .redesSociales a {
     width: 15px; }
   .redesSociales img {
