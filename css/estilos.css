@@ -41,7 +41,7 @@ ol {
   font-size: 1rem; }
 
 .contenedorArmaTuViaje {
-  background-color: antiquewhite;
+  background-color: #9b8973;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -210,11 +210,12 @@ h3 {
     font-size: 32px; }
 
 .cardAtracciones {
+  width: 100%;
   display: inline-block;
   padding: 20px; }
   .cardAtracciones div {
     display: inline-block;
-    margin: 14px; }
+    margin: 12px; }
 
 /* NOSOTROS */
 .agentes {
@@ -324,6 +325,11 @@ footer {
 @media only screen and (max-width: 576px) {
   .carrousel {
     width: 100%; }
+  .cardAtracciones {
+    width: 100%; }
+    .cardAtracciones div {
+      display: inline-block;
+      width: 90%; }
   #curiosidadesDisney h3 {
     font-size: 20px; }
   .mainArmaTuViaje {
