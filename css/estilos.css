@@ -373,3 +373,38 @@ footer {
   .infoCreador h4 {
     padding-top: 7px;
     font-size: 11px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .carrousel {
+    width: 100%; }
+  .cardAtracciones {
+    width: 100%; }
+    .cardAtracciones div {
+      display: inline-block;
+      margin: 22px; }
+  .mainArmaTuViaje {
+    width: 100%; }
+  .costadoArmaTuViaje {
+    width: 100%; }
+  .contenedorNosotros {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
+  .hijoImagen img {
+    padding: 10px;
+    width: 700px; }
+  .agentes {
+    width: 650px;
+    font-size: 12px;
+    padding-left: 3px; }
+  .hijoTabla {
+    width: 95%; }
+  tr th {
+    font-size: 20px; }
+  tr td {
+    font-size: 20px; }
+    tr td ol li {
+      font-size: 8px; } }
