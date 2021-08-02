@@ -345,23 +345,23 @@ footer {
     grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
   .hijoImagen img {
     padding: 10px;
-    width: 400px; }
+    width: 380px; }
   .agentes {
-    width: 350px;
+    width: 330px;
     font-size: 12px; }
   tr th {
-    font-size: 12px; }
+    font-size: 10px; }
   tr td {
-    font-size: 12px; }
+    font-size: 10px; }
     tr td ol li {
-      font-size: 10px; }
+      font-size: 8px; }
   .hijoInfo {
     width: 100%; }
     .hijoInfo h3 {
-      width: 400px;
+      width: 380px;
       font-size: 20px; }
     .hijoInfo p {
-      width: 400px;
+      width: 380px;
       font-size: 12px; }
   .redesSociales a {
     width: 15px; }
