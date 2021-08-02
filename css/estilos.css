@@ -349,7 +349,7 @@ footer {
   .agentes {
     width: 330px;
     font-size: 12px;
-    text-align: center; }
+    padding-left: 3px; }
   .hijoTabla {
     width: 95%; }
   tr th {
@@ -364,7 +364,7 @@ footer {
       width: 350px;
       font-size: 20px; }
     .hijoInfo p {
-      width: 330px;
+      width: 350px;
       font-size: 12px; }
   .redesSociales a {
     width: 15px; }
