@@ -351,7 +351,7 @@ footer {
     font-size: 12px;
     text-align: center; }
   .hijoTabla {
-    width: 100%; }
+    width: 95%; }
   tr th {
     font-size: 8px; }
   tr td {
@@ -364,7 +364,7 @@ footer {
       width: 350px;
       font-size: 20px; }
     .hijoInfo p {
-      width: 350px;
+      width: 330px;
       font-size: 12px; }
   .redesSociales a {
     width: 15px; }
