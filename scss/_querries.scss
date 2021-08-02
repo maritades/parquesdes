@@ -39,13 +39,17 @@
     .agentes    {
         width: 330px;
         font-size: 12px;
+        text-align: center;
+    }
+    .hijoTabla {
+        width: 100%;
     }
     tr  {
         th  {
-            font-size: 10px;
+            font-size: 8px;
         }
         td  {
-            font-size:10px;
+            font-size:8px;
             ol  {
                 li  {
                     font-size: 8px;
@@ -57,11 +61,11 @@
     .hijoInfo {
         width: 100%;
         h3  {
-            width: 380px;
+            width: 350px;
             font-size: 20px;
         }
         p   {
-            width: 380px;
+            width: 350px;
             font-size: 12px;
         }
     }
