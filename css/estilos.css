@@ -349,7 +349,8 @@ footer {
   .agentes {
     width: 330px;
     font-size: 12px;
-    padding-left: 3px; }
+    padding-left: 3px;
+    margin: 0 auto; }
   .hijoTabla {
     width: 95%; }
   tr th {
@@ -357,6 +358,7 @@ footer {
   tr td {
     font-size: 8px; }
     tr td ol li {
+      padding: 0;
       font-size: 8px; }
   .hijoInfo {
     width: 100%; }

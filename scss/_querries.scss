@@ -40,6 +40,7 @@
         width: 330px;
         font-size: 12px;
         padding-left: 3px;
+        margin: 0 auto;
     }
     .hijoTabla {
         width: 95%;
@@ -52,6 +53,7 @@
             font-size:8px;
             ol  {
                 li  {
+                    padding: 0;
                     font-size: 8px;
                 }
             }
