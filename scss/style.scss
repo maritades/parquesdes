@@ -4,18 +4,19 @@
 @import "curiosidades";
 @import "losparques";
 @import "nosotros";
+@import "colores";
+
 *   {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 body    {
-    color: rgb(36, 6, 31);
+    color: $coloroscuro;
     font-family: sans-serif;
-    background-color: #fff0f8;
+    background-color: $bgbody;
 }
 header  {
-    color: steelblue;
     margin: 5px;
     padding: 5px;
     
@@ -23,7 +24,7 @@ header  {
 footer  {
     width: 100%;
     margin-top: 20px 0;
-    color: rgb(99, 51, 91);
+    color: $colorfooter;
     font-family: 'Raleway', sans-serif;
     background-color: white;
     opacity: .7;
@@ -31,12 +32,12 @@ footer  {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border: solid 1px rgb(99, 51, 91);
+    border: solid 1px $colorfooter;
 }
 
 .redesSociales  {
     a   {
-        color: rgb(99, 51, 91);
+        color: $colorfooter;
         margin-left: 20px;
         width: 30px;
     }
@@ -48,7 +49,7 @@ footer  {
 .infoCreador    {
     h4  {
         font-size: 15px;
-        color: #24061f;
+        color: $coloroscuro;
         padding-top: 15px;
         margin-left: 10px;
     }

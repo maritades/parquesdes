@@ -7,7 +7,7 @@
 }
 .parquesTitulo  {
     font-size: 24px;
-    color: #24061f;
+    color: $coloroscuro;
 }
 .parrafoParques {
     margin: 10px;
@@ -25,7 +25,7 @@
     margin-bottom: 40px;
     h3 {
         padding-top: 65px;
-        color: #fff;
+        color: $colorblanco;
         font-size: 32px;
     }
 
@@ -43,7 +43,7 @@
     margin-bottom: 40px;
     h3  {
         padding-top: 65px;
-        color: #fff;
+        color: $colorblanco;
         font-size: 32px;
     }
 

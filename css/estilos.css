@@ -18,7 +18,7 @@ main h3 {
   color: #24061f; }
 
 main p {
-  color: indianred;
+  color: #cd5c5c;
   font-family: 'Open Sans', sans-serif;
   margin: 2px;
   padding: 2px;
@@ -28,14 +28,14 @@ main p {
   width: 100%; }
 
 section p {
-  color: indianred;
+  color: #cd5c5c;
   font-family: 'Open Sans', sans-serif;
   margin: 2px;
   padding: 2px; }
 
 /* ARMA TU VIAJE */
 ol {
-  color: #0c0611;
+  color: #24061f;
   font-family: 'Open Sans', sans-serif;
   list-style-type: square;
   font-size: 1rem; }
@@ -91,7 +91,7 @@ ol {
 .contenidoArmaTuViaje p {
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: #24061f;
   padding: 20px; }
 
 /* ARMA TU VIAJE TEMPORADAS */
@@ -100,7 +100,7 @@ ol {
   padding: 10px; }
 
 .temporadaBaja {
-  color: seagreen;
+  color: #2e8b57;
   margin-left: 10px; }
 
 .temporadaMedia {
@@ -108,7 +108,7 @@ ol {
   margin-left: 10px; }
 
 .temporadaAlta {
-  color: tomato;
+  color: #ff6347;
   margin-left: 10px; }
 
 /* CONTACTO */
@@ -147,13 +147,11 @@ form {
     margin: 5px; }
 
 h2 {
-  color: rebeccapurple;
   font-family: 'Open Sans', sans-serif;
   margin: 3px;
   padding: 3px; }
 
 h3 {
-  color: slateblue;
   font-family: 'Raleway', sans-serif;
   margin: 3px;
   padding: 3px; }
@@ -250,7 +248,7 @@ h3 {
     color: #24061f; }
 
 tr {
-  color: darkcyan; }
+  color: #008b8b; }
 
 table {
   text-align: center;
@@ -275,7 +273,7 @@ table {
       font-family: 'Raleway', sans-serif; }
       .tablaNosotros tr td ol li {
         font-family: 'Raleway', sans-serif;
-        color: darkcyan;
+        color: #008b8b;
         font-size: 15px; }
 
 * {
@@ -289,7 +287,6 @@ body {
   background-color: #fff0f8; }
 
 header {
-  color: steelblue;
   margin: 5px;
   padding: 5px; }
 

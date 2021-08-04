@@ -32,11 +32,11 @@
     text-align: center;
     padding-top: 40px;
     h3  {
-        color: #24061f;  
+        color: $coloroscuro;  
     }
 }
 tr  {
-    color: darkcyan;
+    color: $colortabla;
 }
 table   {
     text-align: center;
@@ -48,23 +48,23 @@ table   {
     
 }
 .tablaNosotros{
-    border: #24061f solid 1px;
+    border: $coloroscuro solid 1px;
     tr  {
-        border: #24061f solid 1px;
+        border: $coloroscuro solid 1px;
         font-family: 'Raleway', sans-serif;
         th  {
-            border: #24061f solid 1px;
+            border: $coloroscuro solid 1px;
             padding: 5px;
             font-family: 'Raleway', sans-serif;    
         }
         td  {
-            border: #24061f solid 1px;
+            border: $coloroscuro solid 1px;
             padding: 5px;
             font-family: 'Raleway', sans-serif;    
             ol     {
                 li  {
                     font-family: 'Raleway', sans-serif;
-                    color: darkcyan;
+                    color:  $colortabla;
                     font-size:15px; 
                 }
             }

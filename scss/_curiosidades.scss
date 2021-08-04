@@ -4,7 +4,7 @@
     text-align: center;
     padding: 10px;
     h3  {
-        color: #24061f;
+        color: $coloroscuro;
     font-size: 30px;
     font-style: 'Raleway', sans-serif;
     }
@@ -21,17 +21,18 @@
         margin: 5px;
     }
 }
+
+@mixin h ($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+}
 h2  {
-    color: rebeccapurple;
     font-family: 'Open Sans', sans-serif;
-    margin: 3px;
-    padding: 3px;
+    @include h (3px, 3px);
 }
 h3  {
-    color: slateblue;
     font-family: 'Raleway', sans-serif;
-    margin: 3px;
-    padding: 3px;
+    @include h (3px, 3px);
 }
 .animacionCard  {
     transition: all 0.2s ease-in-out;
