@@ -1,16 +1,22 @@
 /* LOS PARQUES */
 
-
 .carrousel  {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+}
+.parrafoParques {
+    color: $coloroscuro;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 90%;
+    p{
+        color: $coloroscuro;
+        font-family: 'Raleway', sans-serif;
+    }
 }
 .parquesTitulo  {
     font-size: 24px;
     color: $coloroscuro;
-}
-.parrafoParques {
-    margin: 10px;
 }
 .bannerMagic    {
     background-image: url(../Multimedia/banner-magic.jpg);
@@ -21,7 +27,7 @@
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 40px;
     h3 {
         padding-top: 65px;
@@ -29,6 +35,9 @@
         font-size: 32px;
     }
 
+}
+.parrafoAcordeon{
+    font-family: 'Raleway', sans-serif;
 }
 .bannerAtracciones  {
     background-image: url(../Multimedia/banner-atracciones.jpg);
@@ -48,7 +57,6 @@
     }
 
 }
-
 .cardAtracciones    {
     width: 100%;
     display: inline-block;
@@ -58,4 +66,10 @@
         margin: 12px;
     }
     
+}
+.atraccionesTituloCard  {
+    font-family: 'Raleway', sans-serif;
+}
+.atraccionesListaCard   {
+    font-family: 'Raleway', sans-serif;
 }

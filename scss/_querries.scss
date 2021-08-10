@@ -1,24 +1,30 @@
 /* QUERRIES */
-@media only screen and (max-width: 576px){
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    /* CARROUSEL PARQUES */
     .carrousel{
         width: 100%;
     }
+    /* CARDS ATRACCIONES LOS PARQUES */
     .cardAtracciones    { 
         width: 100%;
         div     {
-            display: inline-block;
+            display: inline;
+            margin: 0 auto;
             width: 90%;
         }
     }
+    /* CARDS CURIOSIDADES */
     #curiosidadesDisney h3  {
         font-size: 20px;
     }
+    /* ARMÁ TU VIAJE */
     .mainArmaTuViaje    {
         width: 100%;
     }
     .costadoArmaTuViaje {
         width: 100%;
     }
+    /* NOSOTROS */
     .contenedorNosotros {
         padding: 5px;
         margin: 5px;
@@ -56,7 +62,6 @@
             }
         }
     }
-    
     .hijoInfo {
         width: 100%;
         h3  {
@@ -68,6 +73,7 @@
             font-size: 12px;
         }
     }
+    /* FOOTER */
     .redesSociales a    {
         width: 15px;
     }
@@ -81,7 +87,7 @@
     
 
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 577px) and (max-width: 1023px) {
     .carrousel{
         width: 100%;
     }
@@ -138,4 +144,17 @@
         }
     }
 
+}
+@media only screen and (min-width: 1624px) {
+    .cardAtracciones    { 
+        div     {
+            margin: 40px;
+        }
+        
+    }
+    .contenidoArmaTuViaje   {
+        p   {
+            font-size: 1.2rem;
+        }
+    }
 }

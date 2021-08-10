@@ -1,73 +1,90 @@
 /* NOSOTROS */
 
-.agentes  {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
-.contenedorNosotros {
-    padding: 10px;
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr;
-    grid-template-areas: 
-        "hijoImagen hijoTabla"
-        "hijoImagen hijoInfo";
-}
-.hijoImagen {
-    grid-area: hijoImagen;
-    img     {
-        width: auto;
-        border-radius: 10px;
-    }
-}
-.hijoTabla  {
-    grid-area: hijoTabla;
+
+.galeriaContainer {
     margin-top: 30px;
-    padding: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.75fr 0.75fr 0.75fr 0.75fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "primeraFoto primerParrafo primerParrafo"
+      "primeraFoto segundaFoto terceraFoto"
+      "segundoParrafo segundoParrafo cuartaFoto"
+      "quintaFoto sextaFoto cuartaFoto";
+  }
+.primeraFoto {
+      grid-area: primeraFoto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+      }
 }
-.hijoInfo   {
-    grid-area: hijoInfo;
-    padding: 10px;
-    text-align: center;
-    padding-top: 40px;
-    h3  {
-        color: $coloroscuro;  
-    }
-}
-tr  {
-    color: $colortabla;
-}
-table   {
-    text-align: center;
-    margin-left: 10px;
-}
-.listaViñetas   {
-    font-size: small;
-    list-style-type: none;
-    
-}
-.tablaNosotros{
-    border: $coloroscuro solid 1px;
-    tr  {
-        border: $coloroscuro solid 1px;
+.primerParrafo {
+    grid-area: primerParrafo;
+    p{
         font-family: 'Raleway', sans-serif;
-        th  {
-            border: $coloroscuro solid 1px;
-            padding: 5px;
-            font-family: 'Raleway', sans-serif;    
-        }
-        td  {
-            border: $coloroscuro solid 1px;
-            padding: 5px;
-            font-family: 'Raleway', sans-serif;    
-            ol     {
-                li  {
-                    font-family: 'Raleway', sans-serif;
-                    color:  $colortabla;
-                    font-size:15px; 
-                }
-            }
-        }
+        color: $coloroscuro;
     }
+}
+.segundaFoto {
+    grid-area: segundaFoto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+.segundoParrafo {
+    grid-area: segundoParrafo;
+    p{
+       font-family: 'Raleway', sans-serif;
+       color: $coloroscuro;
+    }
+}
+.terceraFoto {
+    grid-area: terceraFoto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+.cuartaFoto {
+    grid-area: cuartaFoto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+.quintaFoto {
+    grid-area: quintaFoto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+.sextaFoto {
+    grid-area: sextaFoto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+}
+.agentesDisney {
+    text-align: center;
 }
