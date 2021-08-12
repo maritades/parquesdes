@@ -235,6 +235,16 @@ h3 {
     object-fit: cover;
     border-radius: 2px; }
 
+.primeraFoto img:hover {
+  opacity: 0.07;
+  transition: opacity 800ms; }
+
+.texto {
+  position: absolute;
+  top: 42rem;
+  left: 7rem;
+  z-index: -1; }
+
 .primerParrafo {
   grid-area: primerParrafo; }
   .primerParrafo p {
@@ -248,6 +258,16 @@ h3 {
     height: 100%;
     object-fit: cover;
     border-radius: 2px; }
+
+.segundaFoto img:hover {
+  opacity: 0.07;
+  transition: opacity 800ms; }
+
+.textoDos {
+  position: absolute;
+  top: 42rem;
+  left: 100rem;
+  z-index: -1; }
 
 .segundoParrafo {
   grid-area: segundoParrafo; }
@@ -353,37 +373,15 @@ footer {
   .costadoArmaTuViaje {
     width: 100%; }
   /* NOSOTROS */
-  .contenedorNosotros {
-    padding: 5px;
-    margin: 5px;
+  .galeriaContainer {
+    max-width: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
-  .hijoImagen img {
-    padding: 10px;
-    width: 380px; }
-  .agentes {
-    width: 330px;
-    font-size: 12px;
-    padding-left: 3px;
-    margin: 0 auto; }
-  .hijoTabla {
-    width: 95%; }
-  tr th {
-    font-size: 12px; }
-  tr td {
-    font-size: 12px; }
-    tr td ol {
-      padding: 0; }
-  .hijoInfo {
+    grid-template-columns: 3fr;
+    gap: 5px;
+    grid-template-areas: "primeraFoto" "primerParrafo" "segundaFoto" "segundoParrafo" "terceraFoto" "cuartaFoto" "quintaFoto" "sextaFoto"; }
+  .primeraFoto img {
     width: 100%; }
-    .hijoInfo h3 {
-      width: 350px;
-      font-size: 20px; }
-    .hijoInfo p {
-      width: 350px;
-      font-size: 12px; }
   /* FOOTER */
   .redesSociales a {
     width: 15px; }
@@ -405,29 +403,11 @@ footer {
     width: 100%; }
   .costadoArmaTuViaje {
     width: 100%; }
-  .contenedorNosotros {
-    padding: 5px;
-    margin: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "hijoImagen" "hijoTabla" "hijoInfo"; }
-  .hijoImagen img {
-    padding: 10px;
-    width: 700px; }
-  .agentes {
-    width: 650px;
-    font-size: 12px;
-    padding-left: 3px;
-    margin: 0 auto; }
-  .hijoTabla {
-    width: 95%; }
-  tr th {
-    font-size: 20px; }
-  tr td {
-    font-size: 20px; }
-    tr td ol li {
-      font-size: 8px; } }
+  .galeriaContainer {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px; } }
 
 @media only screen and (min-width: 1624px) {
   .cardAtracciones div {

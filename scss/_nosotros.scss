@@ -26,6 +26,16 @@
         border-radius: 2px;
       }
 }
+.primeraFoto img:hover{
+    opacity: 0.07;
+    transition: opacity 800ms;
+}
+.texto {
+    position: absolute;
+    top: 42rem;
+    left: 7rem;
+    z-index: -1;
+}
 .primerParrafo {
     grid-area: primerParrafo;
     p{
@@ -41,6 +51,16 @@
         object-fit: cover;
         border-radius: 2px;
     }
+}
+.segundaFoto img:hover{
+    opacity: 0.07;
+    transition: opacity 800ms;
+}
+.textoDos {
+    position: absolute;
+    top: 42rem;
+    left: 100rem;
+    z-index: -1;
 }
 .segundoParrafo {
     grid-area: segundoParrafo;
