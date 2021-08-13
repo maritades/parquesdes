@@ -233,17 +233,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2px; }
-
-.primeraFoto img:hover {
-  opacity: 0.07;
-  transition: opacity 800ms; }
-
-.texto {
-  position: absolute;
-  top: 42rem;
-  left: 7rem;
-  z-index: -1; }
+    border-radius: 2px;
+    transition: all .5s ease-in-out; }
+    .primeraFoto img:hover {
+      filter: sepia(60%); }
 
 .primerParrafo {
   grid-area: primerParrafo; }
@@ -257,17 +250,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2px; }
-
-.segundaFoto img:hover {
-  opacity: 0.07;
-  transition: opacity 800ms; }
-
-.textoDos {
-  position: absolute;
-  top: 42rem;
-  left: 100rem;
-  z-index: -1; }
+    border-radius: 2px;
+    transition: all .5s ease-in-out; }
+    .segundaFoto img:hover {
+      filter: sepia(60%); }
 
 .segundoParrafo {
   grid-area: segundoParrafo; }
@@ -281,7 +267,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2px; }
+    border-radius: 2px;
+    transition: all .5s ease-in-out; }
+    .terceraFoto img:hover {
+      filter: sepia(60%); }
 
 .cuartaFoto {
   grid-area: cuartaFoto; }
@@ -289,7 +278,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2px; }
+    border-radius: 2px;
+    transition: all .5s ease-in-out; }
+    .cuartaFoto img:hover {
+      filter: sepia(60%); }
 
 .quintaFoto {
   grid-area: quintaFoto; }
@@ -297,7 +289,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2px; }
+    border-radius: 2px;
+    transition: all .5s ease-in-out; }
+    .quintaFoto img:hover {
+      filter: sepia(60%); }
 
 .sextaFoto {
   grid-area: sextaFoto; }
@@ -305,7 +300,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2px; }
+    border-radius: 2px;
+    transition: all .5s ease-in-out; }
+    .sextaFoto img:hover {
+      filter: sepia(60%); }
 
 .agentesDisney {
   text-align: center; }
@@ -357,6 +355,8 @@ footer {
   /* CARROUSEL PARQUES */
   .carrousel {
     width: 100%; }
+  .parrafoParques p {
+    font-size: 12px; }
   /* CARDS ATRACCIONES LOS PARQUES */
   .cardAtracciones {
     width: 100%; }
@@ -404,10 +404,7 @@ footer {
   .costadoArmaTuViaje {
     width: 100%; }
   .galeriaContainer {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 30px; } }
+    margin: 40px; } }
 
 @media only screen and (min-width: 1624px) {
   .cardAtracciones div {

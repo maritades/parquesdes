@@ -24,17 +24,11 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        transition:all .5s ease-in-out;
+        &:hover{
+            filter: sepia(60%);
+        }
       }
-}
-.primeraFoto img:hover{
-    opacity: 0.07;
-    transition: opacity 800ms;
-}
-.texto {
-    position: absolute;
-    top: 42rem;
-    left: 7rem;
-    z-index: -1;
 }
 .primerParrafo {
     grid-area: primerParrafo;
@@ -50,17 +44,11 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        transition:all .5s ease-in-out;
+        &:hover{
+            filter: sepia(60%);
+        }
     }
-}
-.segundaFoto img:hover{
-    opacity: 0.07;
-    transition: opacity 800ms;
-}
-.textoDos {
-    position: absolute;
-    top: 42rem;
-    left: 100rem;
-    z-index: -1;
 }
 .segundoParrafo {
     grid-area: segundoParrafo;
@@ -76,6 +64,10 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        transition:all .5s ease-in-out;
+        &:hover{
+            filter: sepia(60%);
+        }
     }
 }
 .cuartaFoto {
@@ -85,6 +77,10 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        transition:all .5s ease-in-out;
+        &:hover{
+            filter: sepia(60%);
+        }
     }
 }
 .quintaFoto {
@@ -94,6 +90,10 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        transition:all .5s ease-in-out;
+        &:hover{
+            filter: sepia(60%);
+        }
     }
 }
 .sextaFoto {
@@ -103,6 +103,10 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        transition:all .5s ease-in-out;
+        &:hover{
+            filter: sepia(60%);
+        }
     }
 }
 .agentesDisney {
