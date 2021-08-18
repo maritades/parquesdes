@@ -13,12 +13,19 @@
 }
 body    {
     color: $coloroscuro;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: $bgbody;
 }
 header  {
     margin: 5px;
     padding: 5px;
+    
+}
+.titulosH {
+    color: $coloroscuro;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
     
 }
 footer  {
