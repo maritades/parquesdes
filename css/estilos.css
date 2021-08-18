@@ -203,10 +203,11 @@ h3 {
 .cardAtracciones {
   width: 100%;
   display: inline-block;
-  padding: 20px; }
+  padding: 10px;
+  margin-left: 6%; }
   .cardAtracciones div {
     display: inline-block;
-    margin: 12px; }
+    margin: auto; }
 
 .atraccionesTituloCard {
   font-family: 'Raleway', sans-serif; }
@@ -357,13 +358,14 @@ footer {
     width: 100%; }
   .parrafoParques p {
     font-size: 12px; }
+  .bannerAtracciones h3 {
+    font-size: 20px; }
   /* CARDS ATRACCIONES LOS PARQUES */
   .cardAtracciones {
-    width: 100%; }
+    width: 90%; }
     .cardAtracciones div {
       display: inline;
-      margin: 0 auto;
-      width: 90%; }
+      margin: 0 auto; }
   /* CARDS CURIOSIDADES */
   #curiosidadesDisney h3 {
     font-size: 20px; }
