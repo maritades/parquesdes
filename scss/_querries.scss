@@ -1,6 +1,6 @@
-/* QUERRIES */
+/* QUERRIES MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 576px) {
-    /* CARROUSEL PARQUES */
+    /* CARROUSEL PARQUES MOBILE*/
     .carrousel{
         width: 100%;
     }
@@ -9,6 +9,7 @@
             font-size: 12px;
         }
     }
+    /* PARRAFO BANNER MOBILE */
     .bannerAtracciones  {
         h3  {
             font-size: 20px;
@@ -69,6 +70,7 @@
     
 
 }
+/* QUERRIES TABLET */
 @media only screen and (min-width: 577px) and (max-width: 1023px) {
     .carrousel{
         width: 100%;
@@ -90,6 +92,7 @@
         margin: 40px;
     }
 }
+/* QUERRIES PC GRANDE */
 @media only screen and (min-width: 1624px) {
     .cardAtracciones    { 
         div     {

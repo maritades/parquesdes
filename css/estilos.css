@@ -354,13 +354,14 @@ footer {
   padding-top: 15px;
   margin-left: 10px; }
 
-/* QUERRIES */
+/* QUERRIES MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 576px) {
-  /* CARROUSEL PARQUES */
+  /* CARROUSEL PARQUES MOBILE*/
   .carrousel {
     width: 100%; }
   .parrafoParques p {
     font-size: 12px; }
+  /* PARRAFO BANNER MOBILE */
   .bannerAtracciones h3 {
     font-size: 20px; }
   /* CARDS ATRACCIONES LOS PARQUES */
@@ -396,6 +397,7 @@ footer {
     padding-top: 7px;
     font-size: 11px; } }
 
+/* QUERRIES TABLET */
 @media only screen and (min-width: 577px) and (max-width: 1023px) {
   .carrousel {
     width: 100%; }
@@ -411,6 +413,7 @@ footer {
   .galeriaContainer {
     margin: 40px; } }
 
+/* QUERRIES PC GRANDE */
 @media only screen and (min-width: 1624px) {
   .cardAtracciones div {
     margin: 40px; }
