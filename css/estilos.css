@@ -143,8 +143,11 @@ h3 {
 
 /* LOS PARQUES */
 .carrousel {
-  width: 60%;
+  width: 90%;
   margin: 0 auto; }
+
+.alturaImg {
+  height: 400px; }
 
 .parrafoParques {
   color: #24061f;
